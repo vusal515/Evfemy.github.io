@@ -1,0 +1,390 @@
+<!-- Shared page header: icon sprite, skip link, desktop and mobile headers. -->
+<svg xmlns="http://www.w3.org/2000/svg" hidden>
+  <symbol id="i-star" viewBox="0 0 24 24">
+    <path
+      fill="currentColor"
+      d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"
+    />
+  </symbol>
+  <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+    <circle cx="12" cy="12" r="10" />
+    <path d="M15 9l-6 6M9 9l6 6" />
+  </symbol>
+  <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+    <circle cx="12" cy="8" r="4" />
+    <path d="M4 21c0-4 3.6-6 8-6s8 2 8 6" />
+  </symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+    <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z" />
+    <circle cx="12" cy="12" r="3" />
+  </symbol>
+  <symbol
+    id="i-eye-off"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.8"
+    stroke-linecap="round"
+  >
+    <path d="M1 12s4-7 11-7c2 0 3.8.6 5.3 1.5M23 12s-4 7-11 7c-2 0-3.8-.6-5.3-1.5" />
+    <path d="M3 3l18 18" />
+  </symbol>
+  <symbol
+    id="i-chevron-up"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2.4"
+    stroke-linecap="round"
+  >
+    <path d="M18 15l-6-6-6 6" />
+  </symbol>
+  <symbol id="i-caret-up" viewBox="0 0 24 24"><path fill="currentColor" d="M5 16l7-8 7 8z" /></symbol>
+</svg>
+<a class="skip-link" href="#main">Əsas məzmuna keç</a>
+
+<!-- ===================== Desktop header ===================== -->
+<header class="desktop_header">
+  <div class="header_container">
+    <div class="header_first">
+      <div class="left_links"></div>
+      <div class="kompanya_container">
+        <p class="kompaniya_text">İstənilən Ünvana Tamamilə Ödənişsiz Çatdırılma</p>
+      </div>
+      <nav class="right_links" aria-label="Xidmətlər">
+        <button type="button" class="inline_items right_link_item" data-modal-open="order-tracker">
+          <img src="/images/icons/shipping-car.svg" class="siparish_image" alt="" />
+          Sifarişinizi İzləyin
+        </button>
+        <a href="#" class="right_link_item">Məhsulu qaytar</a>
+        <a href="category.html?c=kampaniyalar" class="right_link_item">Kampaniyalar</a>
+        <a href="#" class="right_link_item">Yardım</a>
+      </nav>
+    </div>
+
+    <div class="header_second">
+      <div class="logo">
+        <a href="./" aria-label="Evfemiya ana səhifə">
+          <img src="/images/brand/logo.png" alt="Evfemiya" width="290" height="113" />
+        </a>
+      </div>
+
+      <div class="search_container" data-search>
+        <form class="search_form" role="search" action="category.html" method="get" data-search-form>
+          <label for="desktop-search" class="visually-hidden">Məhsul və ya kateqoriya axtar</label>
+          <input
+            id="desktop-search"
+            type="search"
+            class="search_inputs"
+            name="q"
+            autocomplete="off"
+            placeholder="Eviniz üçün axtardığınız hər şey"
+            aria-controls="desktop-search-results"
+            aria-expanded="false"
+            data-search-input
+          />
+          <button type="submit" class="search_submit" aria-label="Axtar">
+            <img src="/images/icons/search.svg" class="search_image" alt="" />
+          </button>
+        </form>
+        <div class="search_Popular_container" id="desktop-search-results" data-search-panel hidden>
+          <div class="search_Popular">
+            <p class="popular_searches_text">POPULYAR AXTARIŞLAR</p>
+            <div class="popular_tags">
+              <button type="button" data-search-tag>Çaydanlıq</button>
+              <button type="button" data-search-tag>Yemək dəsti</button>
+              <button type="button" data-search-tag>Blender</button>
+            </div>
+            <p class="popular_categories_text">NƏTİCƏLƏR</p>
+            <ul class="search_results" data-search-results aria-live="polite"></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="header_second_right">
+        <a class="location_container inline_items" href="#">
+          <img src="/images/icons/map-pin.svg" alt="" />
+          Filiallar
+        </a>
+        <div class="my_account">
+          <button type="button" class="my_account_button" aria-haspopup="true">
+            <img src="/images/icons/account.svg" alt="" />
+            <span>Hesabım</span>
+          </button>
+          <div class="account_drop_Menu_container">
+            <svg class="icon account_up_icon" aria-hidden="true" focusable="false">
+              <use href="#i-caret-up"></use>
+            </svg>
+            <div class="account_drop_Menu">
+              <ul>
+                <li><a href="#">Şəxsi Kabinet</a></li>
+                <li><a href="#">Sifarişlərim</a></li>
+                <li><a href="#">Hədiyyə Kartlarım</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card_container">
+          <a href="cart.html" class="cart_link" data-cart-link>
+            <img src="/images/icons/shopping-cart.svg" alt="" />
+            Səbət
+            <span class="cart_badge" data-cart-count hidden></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="header_third" aria-label="Kateqoriyalar">
+      <!-- @render desktop-nav -->
+    </nav>
+  </div>
+</header>
+
+<!-- ===================== Mobile header ===================== -->
+<header class="mobile_header" data-mobile-header>
+  <div class="mobile_header_container">
+    <div class="menu_and_logo_container">
+      <button
+        type="button"
+        class="mobile_header_menu_bar"
+        aria-label="Menyunu aç"
+        aria-controls="mobile-drawer"
+        aria-expanded="false"
+        data-drawer-open
+      >
+        <img src="/images/icons/menu.png" alt="" width="24" height="24" />
+      </button>
+      <div class="mobile_logo">
+        <a href="./" aria-label="Evfemiya ana səhifə">
+          <img src="/images/brand/logo.png" alt="Evfemiya" width="120" height="47" />
+        </a>
+      </div>
+    </div>
+    <div class="right_links_container">
+      <a href="#" class="mobile_header_account_container" aria-label="Hesabım">
+        <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-user"></use></svg>
+      </a>
+      <button
+        type="button"
+        class="mobile_header_search_image_container"
+        aria-label="Axtarış"
+        aria-controls="mobile-search"
+        data-mobile-search-open
+      >
+        <img src="/images/icons/search.svg" class="mobile_header_search_image" alt="" />
+      </button>
+      <a href="cart.html" class="mobile_header_card_container cart_link" aria-label="Səbət" data-cart-link>
+        <img src="/images/icons/shopping-cart.svg" alt="" />
+        <span class="cart_badge" data-cart-count hidden></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Mobile search overlay -->
+  <div class="mobile_header_popular_searches" id="mobile-search" data-search hidden>
+    <div class="mobile_header_popular_searches_container">
+      <form class="mobile_search_input_container" role="search" action="category.html" method="get" data-search-form>
+        <img src="/images/icons/search.svg" alt="" />
+        <div class="mobile_search_input">
+          <label for="mobile-search-input" class="visually-hidden">Məhsul və ya kateqoriya axtar</label>
+          <input
+            id="mobile-search-input"
+            type="search"
+            name="q"
+            placeholder="Eviniz üçün axtardığınız hər şey"
+            autocomplete="off"
+            aria-controls="mobile-search-results"
+            data-search-input
+          />
+        </div>
+        <button
+          type="button"
+          class="mobile_popular_searches_close"
+          aria-label="Axtarışı bağla"
+          data-mobile-search-close
+        >
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"></use></svg>
+        </button>
+      </form>
+      <div class="search_Popular" id="mobile-search-results" data-search-panel>
+        <p class="popular_searches_text">POPULYAR AXTARIŞLAR</p>
+        <div class="popular_tags">
+          <button type="button" data-search-tag>Çaydanlıq</button>
+          <button type="button" data-search-tag>Yemək dəsti</button>
+        </div>
+        <p class="popular_categories_text">NƏTİCƏLƏR</p>
+        <ul class="search_results" data-search-results aria-live="polite"></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile drawer -->
+  <div class="mobile_menu_bar_window" id="mobile-drawer" role="dialog" aria-modal="true" aria-label="Menyu" hidden>
+    <div class="menu_bar_window_container">
+      <div class="menu_bar_window_header">
+        <div class="menu_bar_window_header_container">
+          <button type="button" class="menu_bar_close_btn" aria-label="Menyunu bağla" data-drawer-close>
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"></use></svg>
+          </button>
+          <a href="./" aria-label="Evfemiya ana səhifə">
+            <img src="/images/brand/logo.png" class="menu_window_mobile_logo" alt="Evfemiya" />
+          </a>
+          <button type="button" class="menu_window_mobile_search_btn" aria-label="Axtarış" data-mobile-search-open>
+            <img src="/images/icons/search.svg" class="menu_window_mobile_search" alt="" />
+          </button>
+        </div>
+      </div>
+
+      <div class="scrolling_window_container">
+        <div class="login" data-tabs>
+          <div class="l_head" role="tablist" aria-label="Hesab">
+            <button
+              type="button"
+              class="basliq"
+              role="tab"
+              id="tab-login"
+              aria-controls="panel-login"
+              aria-selected="true"
+            >
+              Daxil ol
+            </button>
+            <button
+              type="button"
+              class="basliq"
+              role="tab"
+              id="tab-register"
+              aria-controls="panel-register"
+              aria-selected="false"
+              tabindex="-1"
+            >
+              Qeydiyyat
+            </button>
+          </div>
+
+          <div class="l_body" role="tabpanel" id="panel-login" aria-labelledby="tab-login">
+            <form novalidate data-form="login">
+              <label class="field">
+                <span class="visually-hidden">E-mail</span>
+                <input
+                  name="email"
+                  class="form-control"
+                  type="email"
+                  placeholder="E-mail"
+                  autocomplete="email"
+                  required
+                />
+              </label>
+              <label class="field field--password">
+                <span class="visually-hidden">Şifrə</span>
+                <input
+                  name="password"
+                  class="form-control"
+                  type="password"
+                  placeholder="Şifrə"
+                  autocomplete="current-password"
+                  required
+                />
+                <button type="button" class="eye" aria-label="Şifrəni göstər" data-password-toggle>
+                  <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-eye"></use></svg>
+                </button>
+              </label>
+              <label class="checkbox"><input type="checkbox" name="remember" value="1" /> Məni xatırla</label>
+              <a href="#" class="forgot-link">Şifrəni unutmuşam</a>
+              <p class="form-status" role="status" data-form-status></p>
+              <button class="tnt" type="submit">Daxil ol</button>
+            </form>
+          </div>
+
+          <div class="l_body" role="tabpanel" id="panel-register" aria-labelledby="tab-register" hidden>
+            <form novalidate data-form="register">
+              <label class="field">
+                <span class="visually-hidden">Ad Soyad</span>
+                <input
+                  name="fullName"
+                  class="form-control"
+                  type="text"
+                  placeholder="Ad Soyad"
+                  autocomplete="name"
+                  required
+                />
+              </label>
+              <label class="field">
+                <span class="visually-hidden">Mobil nömrə</span>
+                <input
+                  name="phone"
+                  class="form-control"
+                  type="tel"
+                  placeholder="Mobil nömrə (+994 50 123 45 67)"
+                  autocomplete="tel"
+                  required
+                />
+              </label>
+              <label class="field">
+                <span class="visually-hidden">Ünvan</span>
+                <input
+                  name="address"
+                  class="form-control"
+                  type="text"
+                  placeholder="Ünvan"
+                  autocomplete="street-address"
+                />
+              </label>
+              <label class="field">
+                <span class="visually-hidden">E-mail</span>
+                <input
+                  name="email"
+                  class="form-control"
+                  type="email"
+                  placeholder="E-mail"
+                  autocomplete="email"
+                  required
+                />
+              </label>
+              <label class="field field--password">
+                <span class="visually-hidden">Şifrə</span>
+                <input
+                  name="password"
+                  class="form-control"
+                  type="password"
+                  placeholder="Şifrə (ən azı 8 simvol)"
+                  autocomplete="new-password"
+                  required
+                />
+                <button type="button" class="eye" aria-label="Şifrəni göstər" data-password-toggle>
+                  <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-eye"></use></svg>
+                </button>
+              </label>
+              <label class="field field--password">
+                <span class="visually-hidden">Şifrəni təkrarla</span>
+                <input
+                  name="passwordConfirm"
+                  class="form-control"
+                  type="password"
+                  placeholder="Şifrəni təkrarla"
+                  autocomplete="new-password"
+                  required
+                />
+                <button type="button" class="eye" aria-label="Şifrəni göstər" data-password-toggle>
+                  <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-eye"></use></svg>
+                </button>
+              </label>
+              <p class="form-status" role="status" data-form-status></p>
+              <button class="tnt" type="submit">Qeydiyyatdan keç</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="account_logIn_register_buttons">
+          <div class="logIn_register_buttons_container">
+            <button type="button" class="menu_log_in" data-modal-open="order-tracker">Sifarişi izlə</button>
+            <a href="cart.html" class="menu_log_in">Səbət</a>
+          </div>
+        </div>
+
+        <nav class="menu_categories_list_container" aria-label="Kateqoriyalar">
+          <!-- @render mobile-nav -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>

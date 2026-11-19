@@ -7,16 +7,47 @@ import { JSDOM } from 'jsdom';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const OUT = path.join(ROOT, 'node_modules', '.cache', 'build-test');
+const PAGES = ['index.html', 'category.html', 'product.html', 'cart.html'];
+const pages = {};
 let doc;
 let html;
 
 beforeAll(async () => {
   await build({ root: ROOT, logLevel: 'silent', build: { outDir: OUT, emptyOutDir: true, sourcemap: false } });
-  html = fs.readFileSync(path.join(OUT, 'index.html'), 'utf8');
-  doc = new JSDOM(html).window.document;
+  for (const page of PAGES) {
+    const source = fs.readFileSync(path.join(OUT, page), 'utf8');
+    pages[page] = { html: source, doc: new JSDOM(source).window.document };
+  }
+  ({ html, doc } = pages['index.html']);
 }, 60_000);
 
-describe('production build', () => {
+describe.each(PAGES)('production build: %s', (page) => {
+  it('exists with the shared header, footer and its own page script', () => {
+    const { doc: d, html: h } = pages[page];
+    expect(d.querySelector('.desktop_header')).not.toBeNull();
+    expect(d.querySelector('.footer')).not.toBeNull();
+    expect(d.querySelector('script[type="module"][src^="./assets/"]')).not.toBeNull();
+    expect(h).not.toMatch(/@render/);
+  });
+
+  it('uses only relative local URLs that exist in the output', () => {
+    const { doc: d } = pages[page];
+    const refs = [...d.querySelectorAll('[src], link[href]')]
+      .map((el) => el.getAttribute('src') ?? el.getAttribute('href'))
+      .filter((ref) => ref && !/^(https?:|data:|#)/.test(ref));
+    expect(refs.filter((ref) => ref.startsWith('/'))).toEqual([]);
+    expect(refs.filter((ref) => !fs.existsSync(path.join(OUT, ref)))).toEqual([]);
+  });
+
+  it('declares the language, a body page name and exactly one h1', () => {
+    const { doc: d } = pages[page];
+    expect(d.documentElement.lang).toBe('az');
+    expect(d.body.dataset.page).toBeTruthy();
+    expect(d.querySelectorAll('h1')).toHaveLength(1);
+  });
+});
+
+describe('production build: home page', () => {
   it('resolves every local asset referenced by the page', () => {
     const refs = [...doc.querySelectorAll('[src], link[href]')]
       .map((el) => el.getAttribute('src') ?? el.getAttribute('href'))
@@ -63,8 +94,16 @@ describe('production build', () => {
     expect(ids.length).toBe(new Set(ids).size);
   });
 
-  it('declares the page language and a single h1', () => {
-    expect(doc.documentElement.lang).toBe('az');
-    expect(doc.querySelectorAll('h1')).toHaveLength(1);
+  it('links product cards to product pages and the header to the cart', () => {
+    const productLinks = [...doc.querySelectorAll('.product-card__link')].map((a) => a.getAttribute('href'));
+    expect(productLinks.length).toBeGreaterThan(10);
+    productLinks.forEach((href) => expect(href).toMatch(/^product\.html\?id=[a-z0-9-]+$/));
+    expect(doc.querySelector('[data-cart-link]').getAttribute('href')).toBe('cart.html');
+  });
+
+  it('has far fewer placeholder links than the original page', () => {
+    const links = [...doc.querySelectorAll('a[href]')];
+    const placeholders = links.filter((a) => a.getAttribute('href') === '#');
+    expect(placeholders.length / links.length).toBeLessThan(0.1);
   });
 });

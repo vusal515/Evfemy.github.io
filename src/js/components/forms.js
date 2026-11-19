@@ -47,7 +47,12 @@ export function formValues(form) {
   return values;
 }
 
-export async function handleSubmit(form, { api = defaultApi } = {}) {
+/**
+ * Validates and submits a `data-form` form. `extend` lets a page add data that
+ * is not a form field (the checkout adds the cart lines). `onSuccess` runs
+ * after the server accepted the request.
+ */
+export async function handleSubmit(form, { api = defaultApi, extend = (payload) => payload, onSuccess } = {}) {
   const name = form.dataset.form;
   const values = formValues(form);
   const { valid, errors } = validate(values, schemas[name] ?? {});
@@ -63,9 +68,10 @@ export async function handleSubmit(form, { api = defaultApi } = {}) {
   try {
     // passwordConfirm is a client-side check only.
     const { passwordConfirm: _ignored, ...payload } = values;
-    await api.submitForm(name, payload);
+    const response = await api.submitForm(name, extend(payload));
     setStatus(form, MESSAGES.success, 'success');
     form.reset();
+    onSuccess?.(response);
     return { ok: true };
   } catch (error) {
     const notConfigured = error instanceof ApiNotConfiguredError;

@@ -1,8 +1,9 @@
 import navigation from '../../data/navigation.json';
+import products from '../../data/products.json';
 import { buildIndex, search } from '../lib/search.js';
 import { qs, qsa, on } from '../lib/dom.js';
 
-const index = buildIndex(navigation);
+const index = buildIndex(navigation, products);
 
 function renderResults(list, results, query) {
   list.replaceChildren();
@@ -10,7 +11,7 @@ function renderResults(list, results, query) {
   if (!results.length) {
     const empty = document.createElement('li');
     empty.className = 'search_results__empty';
-    empty.textContent = `"${query}" üzrə kateqoriya tapılmadı.`;
+    empty.textContent = `"${query}" üzrə nəticə tapılmadı.`;
     list.append(empty);
     return;
   }
@@ -49,7 +50,10 @@ export function initSearchWidget(container) {
   const cleanups = [
     on(input, 'focus', () => setOpen(true)),
     on(input, 'input', update),
+    // The form submits to category.html?q=... (works without JavaScript too);
+    // too-short queries stay on the page and keep the suggestions open.
     on(form, 'submit', (event) => {
+      if (input.value.trim().length >= 2) return;
       event.preventDefault();
       update();
       setOpen(true);

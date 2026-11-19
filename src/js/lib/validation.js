@@ -44,6 +44,11 @@ export const schemas = {
     email: [required, email],
     orderNumber: [required, digits],
   },
+  checkout: {
+    fullName: [required, minLength(3)],
+    phone: [required, azMobile],
+    address: [required, minLength(10)],
+  },
 };
 
 /**

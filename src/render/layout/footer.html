@@ -1,0 +1,94 @@
+<!-- Shared page footer, order-tracker dialog and cart notifications. -->
+<!-- ===================== Footer ===================== -->
+<div class="footer_wrapper">
+  <footer class="footer">
+    <div class="footer_container_black">
+      <nav class="footer_menus" aria-label="Alt menyu">
+        <!-- @render footer-columns -->
+      </nav>
+      <nav class="mobile_footer_container" aria-label="Alt menyu (mobil)">
+        <!-- @render footer-accordion -->
+      </nav>
+      <div class="footer_logo_and_social_link_container">
+        <div class="footer_logo_container">
+          <img
+            src="/images/brand/logo-light.png"
+            alt="Evfemiya"
+            class="footer_logo"
+            width="150"
+            height="58"
+            loading="lazy"
+          />
+        </div>
+        <div class="footer_social_links">
+          <a
+            href="https://www.facebook.com/profile.php?id=100057493516347"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Evfemiya Facebook səhifəsi"
+          >
+            <img src="/images/icons/facebook.svg" alt="" />
+          </a>
+          <a
+            href="https://www.tiktok.com/@evfemiya_"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Evfemiya TikTok səhifəsi"
+          >
+            <img src="/images/icons/tiktok.png" alt="" width="40" height="40" />
+          </a>
+        </div>
+      </div>
+      <p class="footer_copyright">Evfemiya © <span data-current-year>2024</span>. Bütün hüquqlar qorunur.</p>
+    </div>
+    <a href="#main" class="up_btn" aria-label="Yuxarı qayıt" data-back-to-top hidden>
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-up"></use></svg>
+    </a>
+  </footer>
+</div>
+
+<!-- ===================== Order tracker dialog ===================== -->
+<dialog class="tracker_dialog" id="order-tracker" aria-labelledby="order-tracker-title">
+  <div class="tracker_log_in_pop_up_container">
+    <div class="tracker_log_in_pop_up_header">
+      <h2 class="tracker_log_in_pop_up_header_name" id="order-tracker-title">Sifarişi izlə</h2>
+      <button type="button" class="tracker_log_in_close_btn" aria-label="Bağla" data-modal-close>
+        <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"></use></svg>
+      </button>
+    </div>
+    <div class="tracker_log_in_pop_up_body">
+      <form novalidate data-form="order-tracking">
+        <label>
+          E-mail
+          <input
+            type="email"
+            name="email"
+            class="tracker_log_in_email"
+            placeholder="E-mail daxil edin"
+            autocomplete="email"
+            required
+          />
+        </label>
+        <label>
+          Sifariş nömrəsi
+          <input
+            type="text"
+            name="orderNumber"
+            class="tracker_log_in_track_number"
+            placeholder="Sifariş nömrəsi daxil edin"
+            inputmode="numeric"
+            required
+          />
+        </label>
+        <p class="form-status" role="status" data-form-status></p>
+        <button class="tarcker_search_btn" type="submit">Axtar</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+<div class="toast" role="status" aria-live="polite" data-toast hidden></div>
+
+<noscript>
+  <p class="noscript">Karusellər və menyular üçün JavaScript tələb olunur. Məzmun JavaScript olmadan da oxunur.</p>
+</noscript>

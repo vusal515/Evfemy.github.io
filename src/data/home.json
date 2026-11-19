@@ -14,79 +14,79 @@
           "label": "Servis Ləvazimatları",
           "image": "categories/dnqfme0.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=sufre&sub=servis-levazimatlari"
         },
         {
           "label": "Hazırlıq Ləvazimatı",
           "image": "categories/4irqcdk.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=metbex&sub=hazirliq-levazimati"
         },
         {
           "label": "Hədiyyə Kartı",
           "image": "categories/4nixgg4.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=hediyye"
         },
         {
           "label": "Evlilik Paketi",
           "image": "categories/a8unlbp.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=cehiz-desti"
         },
         {
           "label": "Mətbəx",
           "image": "categories/v9im28y.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=metbex"
         },
         {
           "label": "Jumbo",
           "image": "categories/pgjk14t.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=metbex&sub=bisirme"
         },
         {
           "label": "Karaca Home",
           "image": "categories/axhacxh.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=ev-tekstili"
         },
         {
           "label": "Karaca",
           "image": "categories/wxtsicr.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=sufre"
         },
         {
           "label": "Kiçik Mətbəx Texnikası",
           "image": "categories/fcsibyd.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=elektronika&sub=kicik-metbex-texnikasi"
         },
         {
           "label": "Xalça",
           "image": "categories/7njhex0.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=ev-tekstili&sub=xalca"
         },
         {
           "label": "Berghoff",
           "image": "categories/0hz5hl8.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=metbex&sub=bisirme"
         },
         {
           "label": "Elektronika",
           "image": "categories/w4yfv8a.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=elektronika"
         },
         {
           "label": "Hamam Tekstili",
           "image": "categories/t4vwwwd.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=ev-tekstili&sub=hamam-tekstili"
         }
       ]
     },
@@ -103,17 +103,17 @@
         {
           "image": "banners/271oeb3.webp",
           "alt": "Cehizlik kampaniyası: yemək və çay dəstləri 24 aylıq hissəli ödənişlə",
-          "href": "#"
+          "href": "category.html?c=cehiz-desti"
         },
         {
           "image": "banners/2p0qhqn.webp",
           "alt": "Crystal Bohemia kolleksiyasında 50% endirim",
-          "href": "#"
+          "href": "category.html?c=endirim"
         },
         {
           "image": "banners/v3f8ax5.webp",
           "alt": "Hər zövqə və hər büdcəyə uyğun çini yemək dəstləri",
-          "href": "#"
+          "href": "category.html?c=sufre&sub=yemek-destleri"
         }
       ]
     },
@@ -125,67 +125,67 @@
       "items": [
         {
           "label": "Duz/İstiot Qabı",
-          "href": "#"
+          "href": "category.html?c=sufre&sub=duz-istiot-qabi"
         },
         {
           "label": "Yastıq",
-          "href": "#"
+          "href": "category.html?c=ev-tekstili&sub=yastiq"
         },
         {
           "label": "6 Nəfərlik Səhər Yeməyi Dəsti",
-          "href": "#"
+          "href": "category.html?c=sufre&sub=6-neferlik-seher-yemeyi-desti"
         },
         {
           "label": "Peçenye Kəsici Dəsti",
-          "href": "#"
+          "href": "category.html?c=metbex&sub=pecenye-kesici-desti"
         },
         {
           "label": "Şəkər Pudrası Ələyi",
-          "href": "#"
+          "href": "category.html?c=metbex&sub=metbex-levazimati"
         },
         {
           "label": "Rəndə",
-          "href": "#"
+          "href": "category.html?c=metbex&sub=rende"
         },
         {
           "label": "Çərəz Qıran",
-          "href": "#"
+          "href": "category.html?c=metbex&sub=hazirliq-levazimati"
         },
         {
           "label": "Düdüklü Qazan",
-          "href": "#"
+          "href": "category.html?c=metbex&sub=duduklu-qazan"
         },
         {
           "label": "Şokolad Fəvvarəsi",
-          "href": "#"
+          "href": "category.html?c=elektronika&sub=sokolad-fevvaresi"
         },
         {
           "label": "Yataq Dəsti Tək Nəfərlik",
-          "href": "#"
+          "href": "category.html?c=ev-tekstili&sub=yataq-desti-tek-neferlik"
         },
         {
           "label": "Mürəbbə Qabı",
-          "href": "#"
+          "href": "category.html?c=sufre&sub=servis-levazimatlari"
         },
         {
           "label": "Servis Aksesuarları",
-          "href": "#"
+          "href": "category.html?c=metbex&sub=servis-aksesuarlari"
         },
         {
           "label": "Servis Taxtası",
-          "href": "#"
+          "href": "category.html?c=metbex&sub=hazirliq-levazimati"
         },
         {
           "label": "Pizza Taxtası",
-          "href": "#"
+          "href": "category.html?c=metbex&sub=pizza-taxtasi"
         },
         {
           "label": "Blender Dəsti",
-          "href": "#"
+          "href": "category.html?c=elektronika&sub=blender"
         },
         {
           "label": "Önlük",
-          "href": "#"
+          "href": "category.html?c=metbex&sub=onluk"
         }
       ]
     },
@@ -202,12 +202,12 @@
         {
           "image": "banners/xxuoi95.webp",
           "alt": "Yalnız onlayn satışda seçilmiş məhsullara 70%-dək endirim",
-          "href": "#"
+          "href": "category.html?c=endirim"
         },
         {
           "image": "banners/xulmwar.webp",
           "alt": "Bizimlə işləriniz daha asan: kiçik məişət texnikası",
-          "href": "#"
+          "href": "category.html?c=elektronika"
         }
       ]
     },
@@ -222,64 +222,40 @@
       },
       "items": [
         {
-          "image": "products/7or4i1t.webp",
-          "alt": "Əl blenderi dəsti",
-          "href": "#"
+          "product": "el-blenderi-desti"
         },
         {
-          "image": "products/wd5aky8.webp",
-          "alt": "Qazan və tava dəsti",
-          "href": "#"
+          "product": "qazan-ve-tava-desti"
         },
         {
-          "image": "products/usj7ohk.webp",
-          "alt": "Stendli mətbəx alətləri dəsti",
-          "href": "#"
+          "product": "stendli-metbex-aletleri"
         },
         {
-          "image": "products/yxuzle9.webp",
-          "alt": "Naxışlı servis sinisi",
-          "href": "#"
+          "product": "naxisli-servis-sinisi"
         },
         {
-          "image": "products/b77wcfs.webp",
-          "alt": "Yorğan",
-          "href": "#"
+          "product": "yorgan-cut-neferlik"
         },
         {
-          "image": "products/3pcp5kw.webp",
-          "alt": "Qızılı şüşə nəlbəki dəsti",
-          "href": "#"
+          "product": "qizili-nelbeki-desti"
         },
         {
-          "image": "products/7e90evx.webp",
-          "alt": "Dekorativ zürafə fiquru",
-          "href": "#"
+          "product": "dekorativ-zurafe-fiquru"
         },
         {
-          "image": "products/zjsdq3g.webp",
-          "alt": "Keks və tort qəlibləri",
-          "href": "#"
+          "product": "keks-ve-tort-qelibleri"
         },
         {
-          "image": "products/25d5ehk.webp",
-          "alt": "Toster və qril",
-          "href": "#"
+          "product": "toster-ve-qril"
         },
         {
-          "image": "products/9xts4ie.webp",
-          "alt": "Ağ çini yemək dəsti",
-          "href": "#"
+          "product": "ag-cini-yemek-desti"
         },
         {
-          "image": "products/evpaekc.webp",
-          "alt": "Bambuk kəsmə taxtası dəsti",
-          "href": "#"
+          "product": "bambuk-kesme-taxtasi-desti"
         },
         {
-          "image": "products/dbf1sbq.webp",
-          "alt": "Şüşə elektrik çaydanı",
-          "href": "#"
+          "product": "suse-elektrik-caydani"
         }
       ]
     },
@@ -294,54 +270,34 @@
       },
       "items": [
         {
-          "image": "products/rq4syfm.webp",
-          "alt": "Paslanmayan polad çaydan",
-          "href": "#"
+          "product": "paslanmayan-polad-caydan"
         },
         {
-          "image": "products/qle9dhn.webp",
-          "alt": "Kristal çərəz qabı",
-          "href": "#"
+          "product": "kristal-cerez-qabi"
         },
         {
-          "image": "products/pgo01h8.webp",
-          "alt": "Kristal stolüstü saat",
-          "href": "#"
+          "product": "kristal-stolustu-saat"
         },
         {
-          "image": "products/cl77280.webp",
-          "alt": "Ayaqlı kristal tort qabı",
-          "href": "#"
+          "product": "ayaqli-kristal-tort-qabi"
         },
         {
-          "image": "products/qadl043.webp",
-          "alt": "Səhər yeməyi servis dəsti",
-          "href": "#"
+          "product": "seher-yemeyi-servis-desti"
         },
         {
-          "image": "products/aqiic4p.webp",
-          "alt": "Qızılı şüşə qəlyanaltı qabları",
-          "href": "#"
+          "product": "qizili-qelyanalti-qablari"
         },
         {
-          "image": "products/3mg897q.webp",
-          "alt": "Daş görünüşlü servis boşqabı",
-          "href": "#"
+          "product": "das-gorunuslu-servis-boshqabi"
         },
         {
-          "image": "products/rbeztkb.webp",
-          "alt": "Ədviyyat və sous dəsti",
-          "href": "#"
+          "product": "edviyyat-ve-sous-desti"
         },
         {
-          "image": "products/f25qneg.webp",
-          "alt": "Kristal su stəkanları",
-          "href": "#"
+          "product": "kristal-su-stekanlari"
         },
         {
-          "image": "products/fvdav7l.webp",
-          "alt": "Çörək qabı",
-          "href": "#"
+          "product": "corek-qabi"
         }
       ]
     },
@@ -358,12 +314,12 @@
         {
           "image": "banners/rff3s3a.webp",
           "alt": "Rahatlığınız xoşbəxtliyinizdir: sərfəli cehiz dəstləri",
-          "href": "#"
+          "href": "category.html?c=cehiz-desti"
         },
         {
           "image": "banners/r87biz1.webp",
           "alt": "Dekorasiya məhsulları ilə evinizi fərqləndirin",
-          "href": "#"
+          "href": "category.html?c=aksesuar"
         }
       ]
     },
@@ -380,27 +336,27 @@
         {
           "image": "banners/z053cgp.webp",
           "alt": "Parlayan kolleksiyası: kristal qrafin və stəkanlar",
-          "href": "#"
+          "href": "category.html?c=sufre&sub=sufre-servisi"
         },
         {
           "image": "banners/3uaovjz.webp",
           "alt": "Cerve kolleksiyası",
-          "href": "#"
+          "href": "category.html?c=sufre"
         },
         {
           "image": "banners/35vrrxj.webp",
           "alt": "Jumbo qab-qacaq kolleksiyası",
-          "href": "#"
+          "href": "category.html?c=metbex&sub=bisirme"
         },
         {
           "image": "banners/nuqf4iv.webp",
           "alt": "Evfemiya qış fürsətləri: paslanmayan polad qazan dəstləri",
-          "href": "#"
+          "href": "category.html?c=kampaniyalar"
         },
         {
           "image": "banners/nbek9d7.webp",
           "alt": "BergHOFF qazan və tava dəstləri",
-          "href": "#"
+          "href": "category.html?c=metbex&sub=bisirme"
         }
       ]
     },
@@ -418,37 +374,37 @@
           "label": "Anama Hədiyyə",
           "image": "gifts/srfivzr.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=hediyye"
         },
         {
           "label": "Atama Hədiyyə",
           "image": "gifts/a7v38mr.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=hediyye"
         },
         {
           "label": "Sevgilimə Hədiyyə",
           "image": "gifts/ibxkbtn.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=hediyye"
         },
         {
           "label": "Dostuma Hədiyyə",
           "image": "gifts/xy5n5bi.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=hediyye"
         },
         {
           "label": "Qəhvə Həvəskarlarına Hədiyyə",
           "image": "gifts/5sar4pv.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=hediyye"
         },
         {
           "label": "Uşaqlara Hədiyyə",
           "image": "gifts/13nhykm.webp",
           "alt": "",
-          "href": "#"
+          "href": "category.html?c=hediyye"
         }
       ]
     }

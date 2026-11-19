@@ -1,4 +1,7 @@
+import { resolve } from 'node:path';
 import { defineConfig } from 'vite';
+
+const page = (name) => resolve(import.meta.dirname, name);
 import contentPlugin from './src/render/vite-plugin-content.js';
 
 export default defineConfig({
@@ -9,6 +12,14 @@ export default defineConfig({
     target: 'es2020',
     sourcemap: true,
     assetsInlineLimit: 2048,
+    rollupOptions: {
+      input: {
+        home: page('index.html'),
+        category: page('category.html'),
+        product: page('product.html'),
+        cart: page('cart.html'),
+      },
+    },
   },
   test: {
     environment: 'jsdom',

@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { renderSection, VARIANT_CLASS } from '../src/render/templates/home.js';
 import { renderDesktopNav, renderMobileNav } from '../src/render/templates/navigation.js';
 import { renderFooterAccordion } from '../src/render/templates/footer.js';
+import { injectPartials } from '../src/render/vite-plugin-content.js';
 
 const parse = (markup) => {
   const template = document.createElement('template');
@@ -64,11 +65,10 @@ describe('navigation templates', () => {
   const nav = [
     {
       label: 'Mətbəx',
-      href: '#',
       highlight: false,
-      columns: [{ title: 'Qazan', links: [{ label: 'Düdüklü Qazan', href: '#' }] }],
+      columns: [{ title: 'Qazan', links: [{ label: 'Düdüklü Qazan' }] }],
     },
-    { label: 'Endirim', href: '#', highlight: true, columns: [] },
+    { label: 'Endirim', highlight: true, columns: [] },
   ];
 
   it('renders a mega menu only for categories with columns', () => {
@@ -76,6 +76,17 @@ describe('navigation templates', () => {
     expect(items[0].querySelector('.category_drop_down')).not.toBeNull();
     expect(items[1].querySelector('.category_drop_down')).toBeNull();
     expect(items[1].querySelector('.icon--star')).not.toBeNull();
+  });
+
+  it('builds category links from the menu labels', () => {
+    const fragment = parse(renderDesktopNav(nav));
+    const hrefs = [...fragment.querySelectorAll('a')].map((a) => a.getAttribute('href'));
+    expect(hrefs).toEqual([
+      'category.html?c=metbex',
+      'category.html?c=metbex&sub=qazan',
+      'category.html?c=metbex&sub=duduklu-qazan',
+      'category.html?c=endirim',
+    ]);
   });
 
   it('renders mobile categories with sub-menus as accessible accordions', () => {
@@ -92,5 +103,19 @@ describe('navigation templates', () => {
     const region = fragment.querySelector('.ml');
     expect(region.hidden).toBe(true);
     expect(region.querySelector('a').textContent).toBe('Yardım');
+  });
+});
+
+describe('injectPartials', () => {
+  it('renders nested placeholders (layouts that contain content partials)', () => {
+    const partials = { layout: () => '<nav><!-- @render menu --></nav>', menu: () => '<a>A</a>' };
+    expect(injectPartials('<body><!-- @render layout --></body>', partials)).toBe('<body><nav><a>A</a></nav></body>');
+  });
+
+  it('fails on unknown placeholders and on runaway recursion', () => {
+    expect(() => injectPartials('<!-- @render nope -->', {}, { page: 'x.html' })).toThrow(/"nope" in x.html/);
+    expect(() => injectPartials('<!-- @render loop -->', { loop: () => '<!-- @render loop -->' })).toThrow(
+      /nested deeper/,
+    );
   });
 });

@@ -54,7 +54,7 @@
     "links": [
       {
         "label": "Hədiyyə kartı",
-        "href": "#"
+        "href": "category.html?c=hediyye"
       },
       {
         "label": "Tamamlayıcı Hissələr",
@@ -62,11 +62,11 @@
       },
       {
         "label": "Endirimli Məhsullar",
-        "href": "#"
+        "href": "category.html?c=endirim"
       },
       {
         "label": "Kampaniyalar",
-        "href": "#"
+        "href": "category.html?c=kampaniyalar"
       },
       {
         "label": "Markalar",

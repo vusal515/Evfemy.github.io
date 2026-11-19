@@ -1,8 +1,8 @@
 /**
- * Thin HTTP layer for form submissions.
+ * Thin HTTP layer for form submissions (account forms, order tracking, checkout).
  *
  * This repository ships the storefront front end only. The original PHP back
- * end (login, registration, order tracking) is not part of it, so unless
+ * end (login, registration, order tracking, orders) is not part of it, so unless
  * VITE_API_BASE_URL is set at build time every call rejects with
  * ApiNotConfiguredError and the UI says so plainly instead of pretending
  * the request succeeded.
@@ -27,6 +27,7 @@ export const ENDPOINTS = {
   login: '/auth/login',
   register: '/auth/register',
   'order-tracking': '/orders/track',
+  checkout: '/orders',
 };
 
 export function createApiClient({ baseUrl, fetchImpl = globalThis.fetch, timeoutMs = 10000 } = {}) {

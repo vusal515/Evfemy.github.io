@@ -1,27 +1,22 @@
 [
   {
     "label": "Süfrə",
-    "href": "#",
     "highlight": false,
     "columns": [
       {
         "title": "Yemək Dəstləri",
         "links": [
           {
-            "label": "Yemək Dəstləri",
-            "href": "#"
+            "label": "Yemək Dəstləri"
           },
           {
-            "label": "Yemək Dəstləri",
-            "href": "#"
+            "label": "Yemək Dəstləri"
           },
           {
-            "label": "6 Nəfərlik Yemək Dəsti",
-            "href": "#"
+            "label": "6 Nəfərlik Yemək Dəsti"
           },
           {
-            "label": "12 Nəfərlik Yemək Dəsti",
-            "href": "#"
+            "label": "12 Nəfərlik Yemək Dəsti"
           }
         ]
       },
@@ -29,56 +24,43 @@
         "title": "Çay Qəhvə Şirniyyat Dəstləri",
         "links": [
           {
-            "label": "Çay Qəhvə Şirniyyat Dəstləri",
-            "href": "#"
+            "label": "Çay Qəhvə Şirniyyat Dəstləri"
           },
           {
-            "label": "Çay Stəkanı Dəsti",
-            "href": "#"
+            "label": "Çay Stəkanı Dəsti"
           },
           {
-            "label": "Armudu Stəkan",
-            "href": "#"
+            "label": "Armudu Stəkan"
           },
           {
-            "label": "Qəhvə Fincanı",
-            "href": "#"
+            "label": "Qəhvə Fincanı"
           },
           {
-            "label": "Qəhvə Fincan Nəlbəkisi",
-            "href": "#"
+            "label": "Qəhvə Fincan Nəlbəkisi"
           },
           {
-            "label": "Fincan",
-            "href": "#"
+            "label": "Fincan"
           },
           {
-            "label": "Qəhvə Fincanı Dəsti",
-            "href": "#"
+            "label": "Qəhvə Fincanı Dəsti"
           },
           {
-            "label": "Çay Fincanı",
-            "href": "#"
+            "label": "Çay Fincanı"
           },
           {
-            "label": "Çay Fincanı Dəsti",
-            "href": "#"
+            "label": "Çay Fincanı Dəsti"
           },
           {
-            "label": "Fincan Dəsti",
-            "href": "#"
+            "label": "Fincan Dəsti"
           },
           {
-            "label": "Şirniyyat Qabları",
-            "href": "#"
+            "label": "Şirniyyat Qabları"
           },
           {
-            "label": "Nəlbəki",
-            "href": "#"
+            "label": "Nəlbəki"
           },
           {
-            "label": "Çay Dəstgahı Dəsti",
-            "href": "#"
+            "label": "Çay Dəstgahı Dəsti"
           }
         ]
       },
@@ -86,24 +68,19 @@
         "title": "Səhər Yeməyi Dəstləri",
         "links": [
           {
-            "label": "Səhər Yeməyi Dəstləri",
-            "href": "#"
+            "label": "Səhər Yeməyi Dəstləri"
           },
           {
-            "label": "6 Nəfərlik Səhər Yeməyi Dəsti",
-            "href": "#"
+            "label": "6 Nəfərlik Səhər Yeməyi Dəsti"
           },
           {
-            "label": "Səhər Yeməyi Qabı",
-            "href": "#"
+            "label": "Səhər Yeməyi Qabı"
           },
           {
-            "label": "Yağ Pendir Qabı",
-            "href": "#"
+            "label": "Yağ Pendir Qabı"
           },
           {
-            "label": "Bal Qabı",
-            "href": "#"
+            "label": "Bal Qabı"
           }
         ]
       },
@@ -111,40 +88,31 @@
         "title": "Çəngəl Qaşıq Bıçaq Dəstləri",
         "links": [
           {
-            "label": "Çəngəl Qaşıq Bıçaq Dəstləri",
-            "href": "#"
+            "label": "Çəngəl Qaşıq Bıçaq Dəstləri"
           },
           {
-            "label": "Təkli Çəngəl Qaşıq Bıçaq Dəsti",
-            "href": "#"
+            "label": "Təkli Çəngəl Qaşıq Bıçaq Dəsti"
           },
           {
-            "label": "Bıçaq Dəsti",
-            "href": "#"
+            "label": "Bıçaq Dəsti"
           },
           {
-            "label": "Çəngəl Dəsti",
-            "href": "#"
+            "label": "Çəngəl Dəsti"
           },
           {
-            "label": "Çay Qəhvə Qaşığı Dəsti",
-            "href": "#"
+            "label": "Çay Qəhvə Qaşığı Dəsti"
           },
           {
-            "label": "Qaşıq Dəsti",
-            "href": "#"
+            "label": "Qaşıq Dəsti"
           },
           {
-            "label": "Servis Qaşığı",
-            "href": "#"
+            "label": "Servis Qaşığı"
           },
           {
-            "label": "6 Nəfərlik Çəngəl Qaşıq Bıçaq Dəsti",
-            "href": "#"
+            "label": "6 Nəfərlik Çəngəl Qaşıq Bıçaq Dəsti"
           },
           {
-            "label": "12 Nəfərlik Çəngəl Qaşıq Bıçaq Dəsti",
-            "href": "#"
+            "label": "12 Nəfərlik Çəngəl Qaşıq Bıçaq Dəsti"
           }
         ]
       },
@@ -152,120 +120,91 @@
         "title": "Servis Ləvazimatları",
         "links": [
           {
-            "label": "Servis Ləvazimatları",
-            "href": "#"
+            "label": "Servis Ləvazimatları"
           },
           {
-            "label": "Yağlıq/Sirkəlik",
-            "href": "#"
+            "label": "Yağlıq/Sirkəlik"
           },
           {
-            "label": "Duz/İstiot Qabı",
-            "href": "#"
+            "label": "Duz/İstiot Qabı"
           },
           {
-            "label": "Yumurta Qabı",
-            "href": "#"
+            "label": "Yumurta Qabı"
           },
           {
-            "label": "Məcməyi",
-            "href": "#"
+            "label": "Məcməyi"
           },
           {
-            "label": "Servis Ləvazimatı",
-            "href": "#"
+            "label": "Servis Ləvazimatı"
           },
           {
-            "label": "Buz Vedrəsi",
-            "href": "#"
+            "label": "Buz Vedrəsi"
           },
           {
-            "label": "Süfrə Servisi",
-            "href": "#"
+            "label": "Süfrə Servisi"
           },
           {
-            "label": "Boşqab/Boşqab Dəsti",
-            "href": "#"
+            "label": "Boşqab/Boşqab Dəsti"
           },
           {
-            "label": "Kasa",
-            "href": "#"
+            "label": "Kasa"
           },
           {
-            "label": "Dondurma Qabı",
-            "href": "#"
+            "label": "Dondurma Qabı"
           },
           {
-            "label": "Stəkan/Stəkan Dəsti",
-            "href": "#"
+            "label": "Stəkan/Stəkan Dəsti"
           },
           {
-            "label": "Zeytun Qabı",
-            "href": "#"
+            "label": "Zeytun Qabı"
           },
           {
-            "label": "Çərəz Qabı",
-            "href": "#"
+            "label": "Çərəz Qabı"
           },
           {
-            "label": "Meyvə Qabı",
-            "href": "#"
+            "label": "Meyvə Qabı"
           },
           {
-            "label": "Kürdan Qabı",
-            "href": "#"
+            "label": "Kürdan Qabı"
           },
           {
-            "label": "Sous Qabı",
-            "href": "#"
+            "label": "Sous Qabı"
           },
           {
-            "label": "Qrafin/Stəkan Dəsti",
-            "href": "#"
+            "label": "Qrafin/Stəkan Dəsti"
           },
           {
-            "label": "Dərin Boşqab",
-            "href": "#"
+            "label": "Dərin Boşqab"
           },
           {
-            "label": "Çörək Qabı",
-            "href": "#"
+            "label": "Çörək Qabı"
           },
           {
-            "label": "Bulud Boşqab",
-            "href": "#"
+            "label": "Bulud Boşqab"
           },
           {
-            "label": "Kül Qabı",
-            "href": "#"
+            "label": "Kül Qabı"
           },
           {
-            "label": "Daha çox",
-            "href": "#"
+            "label": "Daha çox"
           },
           {
-            "label": "Süfrə Aksesuarları",
-            "href": "#"
+            "label": "Süfrə Aksesuarları"
           },
           {
-            "label": "Boşqab Altlığı (Supla)",
-            "href": "#"
+            "label": "Boşqab Altlığı (Supla)"
           },
           {
-            "label": "Salfet Tutacağı",
-            "href": "#"
+            "label": "Salfet Tutacağı"
           },
           {
-            "label": "Körpə/Uşaq Süfrə Servisi",
-            "href": "#"
+            "label": "Körpə/Uşaq Süfrə Servisi"
           },
           {
-            "label": "Uşaq Üçün Yemək Dəsti",
-            "href": "#"
+            "label": "Uşaq Üçün Yemək Dəsti"
           },
           {
-            "label": "Çəngəl, Qaşıq, Bıçaq Dəsti",
-            "href": "#"
+            "label": "Çəngəl, Qaşıq, Bıçaq Dəsti"
           }
         ]
       },
@@ -273,32 +212,25 @@
         "title": "Servis Ləvazimatları",
         "links": [
           {
-            "label": "Servis Ləvazimatları",
-            "href": "#"
+            "label": "Servis Ləvazimatları"
           },
           {
-            "label": "Yağlıq/Sirkəlik",
-            "href": "#"
+            "label": "Yağlıq/Sirkəlik"
           },
           {
-            "label": "Duz/İstiot Qabı",
-            "href": "#"
+            "label": "Duz/İstiot Qabı"
           },
           {
-            "label": "Yumurta Qabı",
-            "href": "#"
+            "label": "Yumurta Qabı"
           },
           {
-            "label": "Məcməyi",
-            "href": "#"
+            "label": "Məcməyi"
           },
           {
-            "label": "Servis Ləvazimatı",
-            "href": "#"
+            "label": "Servis Ləvazimatı"
           },
           {
-            "label": "Buz Vedrəsi",
-            "href": "#"
+            "label": "Buz Vedrəsi"
           }
         ]
       },
@@ -306,68 +238,52 @@
         "title": "Süfrə Servisi",
         "links": [
           {
-            "label": "Süfrə Servisi",
-            "href": "#"
+            "label": "Süfrə Servisi"
           },
           {
-            "label": "Boşqab/Boşqab Dəsti",
-            "href": "#"
+            "label": "Boşqab/Boşqab Dəsti"
           },
           {
-            "label": "Kasa",
-            "href": "#"
+            "label": "Kasa"
           },
           {
-            "label": "Dondurma Qabı",
-            "href": "#"
+            "label": "Dondurma Qabı"
           },
           {
-            "label": "Stəkan/Stəkan Dəsti",
-            "href": "#"
+            "label": "Stəkan/Stəkan Dəsti"
           },
           {
-            "label": "Zeytun Qabı",
-            "href": "#"
+            "label": "Zeytun Qabı"
           },
           {
-            "label": "Çərəz Qabı",
-            "href": "#"
+            "label": "Çərəz Qabı"
           },
           {
-            "label": "Meyvə Qabı",
-            "href": "#"
+            "label": "Meyvə Qabı"
           },
           {
-            "label": "Kürdan Qabı",
-            "href": "#"
+            "label": "Kürdan Qabı"
           },
           {
-            "label": "Sous Qabı",
-            "href": "#"
+            "label": "Sous Qabı"
           },
           {
-            "label": "Qrafin/Stəkan Dəsti",
-            "href": "#"
+            "label": "Qrafin/Stəkan Dəsti"
           },
           {
-            "label": "Dərin Boşqab",
-            "href": "#"
+            "label": "Dərin Boşqab"
           },
           {
-            "label": "Çörək Qabı",
-            "href": "#"
+            "label": "Çörək Qabı"
           },
           {
-            "label": "Bulud Boşqab",
-            "href": "#"
+            "label": "Bulud Boşqab"
           },
           {
-            "label": "Kül Qabı",
-            "href": "#"
+            "label": "Kül Qabı"
           },
           {
-            "label": "Daha çox",
-            "href": "#"
+            "label": "Daha çox"
           }
         ]
       },
@@ -375,16 +291,13 @@
         "title": "Süfrə Aksesuarları",
         "links": [
           {
-            "label": "Süfrə Aksesuarları",
-            "href": "#"
+            "label": "Süfrə Aksesuarları"
           },
           {
-            "label": "Boşqab Altlığı (Supla)",
-            "href": "#"
+            "label": "Boşqab Altlığı (Supla)"
           },
           {
-            "label": "Salfet Tutacağı",
-            "href": "#"
+            "label": "Salfet Tutacağı"
           }
         ]
       },
@@ -392,16 +305,13 @@
         "title": "Körpə/Uşaq Süfrə Servisi",
         "links": [
           {
-            "label": "Körpə/Uşaq Süfrə Servisi",
-            "href": "#"
+            "label": "Körpə/Uşaq Süfrə Servisi"
           },
           {
-            "label": "Uşaq Üçün Yemək Dəsti",
-            "href": "#"
+            "label": "Uşaq Üçün Yemək Dəsti"
           },
           {
-            "label": "Çəngəl, Qaşıq, Bıçaq Dəsti",
-            "href": "#"
+            "label": "Çəngəl, Qaşıq, Bıçaq Dəsti"
           }
         ]
       }
@@ -409,43 +319,34 @@
   },
   {
     "label": "Mətbəx",
-    "href": "#",
     "highlight": false,
     "columns": [
       {
         "title": "İçki Hazırlama",
         "links": [
           {
-            "label": "İçki Hazırlama",
-            "href": "#"
+            "label": "İçki Hazırlama"
           },
           {
-            "label": "Çay Dəmlik",
-            "href": "#"
+            "label": "Çay Dəmlik"
           },
           {
-            "label": "Cəzvə",
-            "href": "#"
+            "label": "Cəzvə"
           },
           {
-            "label": "Meyvə Sıxacağı",
-            "href": "#"
+            "label": "Meyvə Sıxacağı"
           },
           {
-            "label": "Termos",
-            "href": "#"
+            "label": "Termos"
           },
           {
-            "label": "Qəhvə Dəmlik",
-            "href": "#"
+            "label": "Qəhvə Dəmlik"
           },
           {
-            "label": "Çaydan",
-            "href": "#"
+            "label": "Çaydan"
           },
           {
-            "label": "Südlük",
-            "href": "#"
+            "label": "Südlük"
           }
         ]
       },
@@ -453,52 +354,40 @@
         "title": "Bişirmə",
         "links": [
           {
-            "label": "Bişirmə",
-            "href": "#"
+            "label": "Bişirmə"
           },
           {
-            "label": "Qazan Dəsti",
-            "href": "#"
+            "label": "Qazan Dəsti"
           },
           {
-            "label": "Qazan",
-            "href": "#"
+            "label": "Qazan"
           },
           {
-            "label": "Tava",
-            "href": "#"
+            "label": "Tava"
           },
           {
-            "label": "Düdüklü Qazan",
-            "href": "#"
+            "label": "Düdüklü Qazan"
           },
           {
-            "label": "Keks Qəlibləri",
-            "href": "#"
+            "label": "Keks Qəlibləri"
           },
           {
-            "label": "Soba Məcməyisi",
-            "href": "#"
+            "label": "Soba Məcməyisi"
           },
           {
-            "label": "Tava (Sahan)",
-            "href": "#"
+            "label": "Tava (Sahan)"
           },
           {
-            "label": "Soba Qabı",
-            "href": "#"
+            "label": "Soba Qabı"
           },
           {
-            "label": "Popkorn Qabı",
-            "href": "#"
+            "label": "Popkorn Qabı"
           },
           {
-            "label": "Qazan və Tava Dəsti",
-            "href": "#"
+            "label": "Qazan və Tava Dəsti"
           },
           {
-            "label": "Manqal Dəsti və Ləvazimatları",
-            "href": "#"
+            "label": "Manqal Dəsti və Ləvazimatları"
           }
         ]
       },
@@ -506,68 +395,52 @@
         "title": "Mətbəx Ləvazimatı",
         "links": [
           {
-            "label": "Mətbəx Ləvazimatı",
-            "href": "#"
+            "label": "Mətbəx Ləvazimatı"
           },
           {
-            "label": "Çörək Qutusu",
-            "href": "#"
+            "label": "Çörək Qutusu"
           },
           {
-            "label": "Saxlama Qabı",
-            "href": "#"
+            "label": "Saxlama Qabı"
           },
           {
-            "label": "Tərəzi",
-            "href": "#"
+            "label": "Tərəzi"
           },
           {
-            "label": "Servis Aksesuarları",
-            "href": "#"
+            "label": "Servis Aksesuarları"
           },
           {
-            "label": "Ədviyyat Dəyirmanı",
-            "href": "#"
+            "label": "Ədviyyat Dəyirmanı"
           },
           {
-            "label": "Çömçə",
-            "href": "#"
+            "label": "Çömçə"
           },
           {
-            "label": "Dondurma Qaşığı",
-            "href": "#"
+            "label": "Dondurma Qaşığı"
           },
           {
-            "label": "Mətbəx Alışqanı",
-            "href": "#"
+            "label": "Mətbəx Alışqanı"
           },
           {
-            "label": "Quruducu",
-            "href": "#"
+            "label": "Quruducu"
           },
           {
-            "label": "Qaşıqlıq",
-            "href": "#"
+            "label": "Qaşıqlıq"
           },
           {
-            "label": "Önlük",
-            "href": "#"
+            "label": "Önlük"
           },
           {
-            "label": "Silikon Bişirmə Dəsti",
-            "href": "#"
+            "label": "Silikon Bişirmə Dəsti"
           },
           {
-            "label": "Spatula",
-            "href": "#"
+            "label": "Spatula"
           },
           {
-            "label": "Süzgəc",
-            "href": "#"
+            "label": "Süzgəc"
           },
           {
-            "label": "Daha çox",
-            "href": "#"
+            "label": "Daha çox"
           }
         ]
       },
@@ -575,68 +448,52 @@
         "title": "Hazırlıq Ləvazimatı",
         "links": [
           {
-            "label": "Hazırlıq Ləvazimatı",
-            "href": "#"
+            "label": "Hazırlıq Ləvazimatı"
           },
           {
-            "label": "Doğrama taxtası",
-            "href": "#"
+            "label": "Doğrama taxtası"
           },
           {
-            "label": "Rəndə",
-            "href": "#"
+            "label": "Rəndə"
           },
           {
-            "label": "Bıçaq",
-            "href": "#"
+            "label": "Bıçaq"
           },
           {
-            "label": "Bıçaq Dəsti",
-            "href": "#"
+            "label": "Bıçaq Dəsti"
           },
           {
-            "label": "Servis Aksesuarları",
-            "href": "#"
+            "label": "Servis Aksesuarları"
           },
           {
-            "label": "Sarımsaq Əzici",
-            "href": "#"
+            "label": "Sarımsaq Əzici"
           },
           {
-            "label": "Soyağac",
-            "href": "#"
+            "label": "Soyağac"
           },
           {
-            "label": "Soyağac Dəsti",
-            "href": "#"
+            "label": "Soyağac Dəsti"
           },
           {
-            "label": "Əl mikseri",
-            "href": "#"
+            "label": "Əl mikseri"
           },
           {
-            "label": "Pizza Taxtası",
-            "href": "#"
+            "label": "Pizza Taxtası"
           },
           {
-            "label": "Mətbəx Çəkici",
-            "href": "#"
+            "label": "Mətbəx Çəkici"
           },
           {
-            "label": "Peçenye Kəsici Dəsti",
-            "href": "#"
+            "label": "Peçenye Kəsici Dəsti"
           },
           {
-            "label": "Oxlov",
-            "href": "#"
+            "label": "Oxlov"
           },
           {
-            "label": "Qarğıdalı ayırıcı",
-            "href": "#"
+            "label": "Qarğıdalı ayırıcı"
           },
           {
-            "label": "Daha çox",
-            "href": "#"
+            "label": "Daha çox"
           }
         ]
       }
@@ -644,39 +501,31 @@
   },
   {
     "label": "Elektronika",
-    "href": "#",
     "highlight": false,
     "columns": [
       {
         "title": "Böyük Məişət Texnikası",
         "links": [
           {
-            "label": "Böyük Məişət Texnikası",
-            "href": "#"
+            "label": "Böyük Məişət Texnikası"
           },
           {
-            "label": "Soyuducu",
-            "href": "#"
+            "label": "Soyuducu"
           },
           {
-            "label": "Paltaryuyan Maşın",
-            "href": "#"
+            "label": "Paltaryuyan Maşın"
           },
           {
-            "label": "Qabyuyan Maşın",
-            "href": "#"
+            "label": "Qabyuyan Maşın"
           },
           {
-            "label": "Aspirator",
-            "href": "#"
+            "label": "Aspirator"
           },
           {
-            "label": "Bişirmə Panelləri",
-            "href": "#"
+            "label": "Bişirmə Panelləri"
           },
           {
-            "label": "Quraşdırılan Ankastr Soba",
-            "href": "#"
+            "label": "Quraşdırılan Ankastr Soba"
           }
         ]
       },
@@ -684,40 +533,31 @@
         "title": "Kiçik Məişət Texnikası",
         "links": [
           {
-            "label": "Kiçik Məişət Texnikası",
-            "href": "#"
+            "label": "Kiçik Məişət Texnikası"
           },
           {
-            "label": "Ütü",
-            "href": "#"
+            "label": "Ütü"
           },
           {
-            "label": "Buxarlı Təmizləyici",
-            "href": "#"
+            "label": "Buxarlı Təmizləyici"
           },
           {
-            "label": "Buxarlı Generator",
-            "href": "#"
+            "label": "Buxarlı Generator"
           },
           {
-            "label": "Buxar Ütüsü",
-            "href": "#"
+            "label": "Buxar Ütüsü"
           },
           {
-            "label": "Buxarlı Təmizləyici Tozsoran",
-            "href": "#"
+            "label": "Buxarlı Təmizləyici Tozsoran"
           },
           {
-            "label": "Buxarlı Təmizləyici Paspas",
-            "href": "#"
+            "label": "Buxarlı Təmizləyici Paspas"
           },
           {
-            "label": "Tozsoran",
-            "href": "#"
+            "label": "Tozsoran"
           },
           {
-            "label": "Saç Feni/Saç Ütüsü",
-            "href": "#"
+            "label": "Saç Feni/Saç Ütüsü"
           }
         ]
       },
@@ -725,28 +565,22 @@
         "title": "İqlim İsitmə Soyutma",
         "links": [
           {
-            "label": "İqlim İsitmə Soyutma",
-            "href": "#"
+            "label": "İqlim İsitmə Soyutma"
           },
           {
-            "label": "Sərinkeş",
-            "href": "#"
+            "label": "Sərinkeş"
           },
           {
-            "label": "Yağ Radiatoru",
-            "href": "#"
+            "label": "Yağ Radiatoru"
           },
           {
-            "label": "Qızdırıcı",
-            "href": "#"
+            "label": "Qızdırıcı"
           },
           {
-            "label": "Hava Təmizləyici",
-            "href": "#"
+            "label": "Hava Təmizləyici"
           },
           {
-            "label": "Elektrik İsitməli Yorğan",
-            "href": "#"
+            "label": "Elektrik İsitməli Yorğan"
           }
         ]
       },
@@ -754,68 +588,52 @@
         "title": "Kiçik Mətbəx Texnikası",
         "links": [
           {
-            "label": "Kiçik Mətbəx Texnikası",
-            "href": "#"
+            "label": "Kiçik Mətbəx Texnikası"
           },
           {
-            "label": "Ətçəkən Maşın",
-            "href": "#"
+            "label": "Ətçəkən Maşın"
           },
           {
-            "label": "Mini Soba",
-            "href": "#"
+            "label": "Mini Soba"
           },
           {
-            "label": "Toster",
-            "href": "#"
+            "label": "Toster"
           },
           {
-            "label": "Elektrikli Çaydan",
-            "href": "#"
+            "label": "Elektrikli Çaydan"
           },
           {
-            "label": "Şirəçəkən Maşın",
-            "href": "#"
+            "label": "Şirəçəkən Maşın"
           },
           {
-            "label": "Blender",
-            "href": "#"
+            "label": "Blender"
           },
           {
-            "label": "Soba",
-            "href": "#"
+            "label": "Soba"
           },
           {
-            "label": "Bişirici",
-            "href": "#"
+            "label": "Bişirici"
           },
           {
-            "label": "İzqara",
-            "href": "#"
+            "label": "İzqara"
           },
           {
-            "label": "Multibişirici",
-            "href": "#"
+            "label": "Multibişirici"
           },
           {
-            "label": "Şokolad Fəvvarəsi",
-            "href": "#"
+            "label": "Şokolad Fəvvarəsi"
           },
           {
-            "label": "Air Fryer",
-            "href": "#"
+            "label": "Air Fryer"
           },
           {
-            "label": "Xəmir Qarışdıran Maşın",
-            "href": "#"
+            "label": "Xəmir Qarışdıran Maşın"
           },
           {
-            "label": "Meyvə Qurudan",
-            "href": "#"
+            "label": "Meyvə Qurudan"
           },
           {
-            "label": "Daha çox",
-            "href": "#"
+            "label": "Daha çox"
           }
         ]
       }
@@ -823,75 +641,58 @@
   },
   {
     "label": "Ev Tekstili",
-    "href": "#",
     "highlight": false,
     "columns": [
       {
         "title": "Yataq Otağı",
         "links": [
           {
-            "label": "Yataq Otağı",
-            "href": "#"
+            "label": "Yataq Otağı"
           },
           {
-            "label": "Çarşaflar",
-            "href": "#"
+            "label": "Çarşaflar"
           },
           {
-            "label": "Pikə Dəsti Cüt Nəfərlik",
-            "href": "#"
+            "label": "Pikə Dəsti Cüt Nəfərlik"
           },
           {
-            "label": "Yataq Dəsti Cüt Nəfərlik",
-            "href": "#"
+            "label": "Yataq Dəsti Cüt Nəfərlik"
           },
           {
-            "label": "Yorğan Cüt Nəfərlik",
-            "href": "#"
+            "label": "Yorğan Cüt Nəfərlik"
           },
           {
-            "label": "Pikə dəsti Tək Nəfərlik",
-            "href": "#"
+            "label": "Pikə dəsti Tək Nəfərlik"
           },
           {
-            "label": "Yataq Dəsti Tək Nəfərlik",
-            "href": "#"
+            "label": "Yataq Dəsti Tək Nəfərlik"
           },
           {
-            "label": "Yorğan Tək Nəfərlik",
-            "href": "#"
+            "label": "Yorğan Tək Nəfərlik"
           },
           {
-            "label": "Yastıq Üzü",
-            "href": "#"
+            "label": "Yastıq Üzü"
           },
           {
-            "label": "Yataq Örtükləri",
-            "href": "#"
+            "label": "Yataq Örtükləri"
           },
           {
-            "label": "Yorğan/Yastıq Cüt Nəfərlik",
-            "href": "#"
+            "label": "Yorğan/Yastıq Cüt Nəfərlik"
           },
           {
-            "label": "Yorğan/Yastıq Tək Nəfərlik",
-            "href": "#"
+            "label": "Yorğan/Yastıq Tək Nəfərlik"
           },
           {
-            "label": "Cehiz Dəsti",
-            "href": "#"
+            "label": "Cehiz Dəsti"
           },
           {
-            "label": "Yastıq",
-            "href": "#"
+            "label": "Yastıq"
           },
           {
-            "label": "Yastıq Cüt Nəfərlik",
-            "href": "#"
+            "label": "Yastıq Cüt Nəfərlik"
           },
           {
-            "label": "Daha çox",
-            "href": "#"
+            "label": "Daha çox"
           }
         ]
       },
@@ -899,20 +700,16 @@
         "title": "Süfrə",
         "links": [
           {
-            "label": "Süfrə",
-            "href": "#"
+            "label": "Süfrə"
           },
           {
-            "label": "Masa Örtüyü",
-            "href": "#"
+            "label": "Masa Örtüyü"
           },
           {
-            "label": "Runner",
-            "href": "#"
+            "label": "Runner"
           },
           {
-            "label": "Masa Örtüyü Dəsti",
-            "href": "#"
+            "label": "Masa Örtüyü Dəsti"
           }
         ]
       },
@@ -920,16 +717,13 @@
         "title": "Xalça",
         "links": [
           {
-            "label": "Xalça",
-            "href": "#"
+            "label": "Xalça"
           },
           {
-            "label": "Xalça",
-            "href": "#"
+            "label": "Xalça"
           },
           {
-            "label": "Hamam Xalçası (Paspas)",
-            "href": "#"
+            "label": "Hamam Xalçası (Paspas)"
           }
         ]
       },
@@ -937,16 +731,13 @@
         "title": "Hamam Tekstili",
         "links": [
           {
-            "label": "Hamam Tekstili",
-            "href": "#"
+            "label": "Hamam Tekstili"
           },
           {
-            "label": "Dəsmal",
-            "href": "#"
+            "label": "Dəsmal"
           },
           {
-            "label": "Hamam Xalatı",
-            "href": "#"
+            "label": "Hamam Xalatı"
           }
         ]
       },
@@ -954,52 +745,40 @@
         "title": "Körpə/Uşaq/Gənc Tekstili",
         "links": [
           {
-            "label": "Körpə/Uşaq/Gənc Tekstili",
-            "href": "#"
+            "label": "Körpə/Uşaq/Gənc Tekstili"
           },
           {
-            "label": "Xəstəxana Çıxışı Körpə Dəsti",
-            "href": "#"
+            "label": "Xəstəxana Çıxışı Körpə Dəsti"
           },
           {
-            "label": "Körpə Üçün Yataq Dəsti",
-            "href": "#"
+            "label": "Körpə Üçün Yataq Dəsti"
           },
           {
-            "label": "Körpə Yataq Tulumu",
-            "href": "#"
+            "label": "Körpə Yataq Tulumu"
           },
           {
-            "label": "Uşaq Yataq Dəstləri",
-            "href": "#"
+            "label": "Uşaq Yataq Dəstləri"
           },
           {
-            "label": "Uşaq Yorğanı",
-            "href": "#"
+            "label": "Uşaq Yorğanı"
           },
           {
-            "label": "Uşaq Yastığı",
-            "href": "#"
+            "label": "Uşaq Yastığı"
           },
           {
-            "label": "Uşaq Yastığı Üzü",
-            "href": "#"
+            "label": "Uşaq Yastığı Üzü"
           },
           {
-            "label": "Uşaq Pikəsi",
-            "href": "#"
+            "label": "Uşaq Pikəsi"
           },
           {
-            "label": "Gənc Otağı",
-            "href": "#"
+            "label": "Gənc Otağı"
           },
           {
-            "label": "Körpə Hamam Dəsti",
-            "href": "#"
+            "label": "Körpə Hamam Dəsti"
           },
           {
-            "label": "Uşaq Hamam Dəsti",
-            "href": "#"
+            "label": "Uşaq Hamam Dəsti"
           }
         ]
       }
@@ -1007,23 +786,19 @@
   },
   {
     "label": "Aksesuar",
-    "href": "#",
     "highlight": false,
     "columns": [
       {
         "title": "Süfrə Aksesuarları",
         "links": [
           {
-            "label": "Süfrə Aksesuarları",
-            "href": "#"
+            "label": "Süfrə Aksesuarları"
           },
           {
-            "label": "Vaza",
-            "href": "#"
+            "label": "Vaza"
           },
           {
-            "label": "Şamdan",
-            "href": "#"
+            "label": "Şamdan"
           }
         ]
       },
@@ -1031,28 +806,22 @@
         "title": "Ev Aksesuarı",
         "links": [
           {
-            "label": "Ev Aksesuarı",
-            "href": "#"
+            "label": "Ev Aksesuarı"
           },
           {
-            "label": "Güzgü",
-            "href": "#"
+            "label": "Güzgü"
           },
           {
-            "label": "Çərçivə",
-            "href": "#"
+            "label": "Çərçivə"
           },
           {
-            "label": "Saat",
-            "href": "#"
+            "label": "Saat"
           },
           {
-            "label": "Otaq Ətri",
-            "href": "#"
+            "label": "Otaq Ətri"
           },
           {
-            "label": "Telefon",
-            "href": "#"
+            "label": "Telefon"
           }
         ]
       },
@@ -1060,32 +829,25 @@
         "title": "Dekorativ Obyekt",
         "links": [
           {
-            "label": "Dekorativ Obyekt",
-            "href": "#"
+            "label": "Dekorativ Obyekt"
           },
           {
-            "label": "Dekorativ Aksesuarlar Biblo",
-            "href": "#"
+            "label": "Dekorativ Aksesuarlar Biblo"
           },
           {
-            "label": "Şüşə Butulka",
-            "href": "#"
+            "label": "Şüşə Butulka"
           },
           {
-            "label": "Dekorativ Aksesuarlar",
-            "href": "#"
+            "label": "Dekorativ Aksesuarlar"
           },
           {
-            "label": "Dekorativ Qutu",
-            "href": "#"
+            "label": "Dekorativ Qutu"
           },
           {
-            "label": "Dekorativ Obyekt",
-            "href": "#"
+            "label": "Dekorativ Obyekt"
           },
           {
-            "label": "Dekorativ Qab",
-            "href": "#"
+            "label": "Dekorativ Qab"
           }
         ]
       },
@@ -1093,12 +855,10 @@
         "title": "Süni Dekor",
         "links": [
           {
-            "label": "Süni Dekor",
-            "href": "#"
+            "label": "Süni Dekor"
           },
           {
-            "label": "Bitki/Meyvə/Gül",
-            "href": "#"
+            "label": "Bitki/Meyvə/Gül"
           }
         ]
       },
@@ -1106,20 +866,16 @@
         "title": "Özəl Əşyalar",
         "links": [
           {
-            "label": "Özəl Əşyalar",
-            "href": "#"
+            "label": "Özəl Əşyalar"
           },
           {
-            "label": "Açarlıq (Brelok)",
-            "href": "#"
+            "label": "Açarlıq (Brelok)"
           },
           {
-            "label": "Cib Aynası",
-            "href": "#"
+            "label": "Cib Aynası"
           },
           {
-            "label": "Manikür və Pedikür aləti",
-            "href": "#"
+            "label": "Manikür və Pedikür aləti"
           }
         ]
       },
@@ -1127,64 +883,49 @@
         "title": "Ev Əşyaları",
         "links": [
           {
-            "label": "Ev Əşyaları",
-            "href": "#"
+            "label": "Ev Əşyaları"
           },
           {
-            "label": "Süpürgə",
-            "href": "#"
+            "label": "Süpürgə"
           },
           {
-            "label": "Ütü Masası",
-            "href": "#"
+            "label": "Ütü Masası"
           },
           {
-            "label": "Ütü Masası Örtüyü",
-            "href": "#"
+            "label": "Ütü Masası Örtüyü"
           },
           {
-            "label": "Yedək parça",
-            "href": "#"
+            "label": "Yedək parça"
           },
           {
-            "label": "Süfrə",
-            "href": "#"
+            "label": "Süfrə"
           },
           {
-            "label": "Mətbəx",
-            "href": "#"
+            "label": "Mətbəx"
           },
           {
-            "label": "Ev Tekstili",
-            "href": "#"
+            "label": "Ev Tekstili"
           },
           {
-            "label": "Elektronika",
-            "href": "#"
+            "label": "Elektronika"
           },
           {
-            "label": "Hamam Ləvazimatı",
-            "href": "#"
+            "label": "Hamam Ləvazimatı"
           },
           {
-            "label": "Hamam Səbəti",
-            "href": "#"
+            "label": "Hamam Səbəti"
           },
           {
-            "label": "Hamam Aksesuarı",
-            "href": "#"
+            "label": "Hamam Aksesuarı"
           },
           {
-            "label": "Diş Fırçası Qabı",
-            "href": "#"
+            "label": "Diş Fırçası Qabı"
           },
           {
-            "label": "Sabun Qabı",
-            "href": "#"
+            "label": "Sabun Qabı"
           },
           {
-            "label": "İpəzor",
-            "href": "#"
+            "label": "İpəzor"
           }
         ]
       },
@@ -1192,20 +933,16 @@
         "title": "Ev Əşyaları",
         "links": [
           {
-            "label": "Ev Əşyaları",
-            "href": "#"
+            "label": "Ev Əşyaları"
           },
           {
-            "label": "Süpürgə",
-            "href": "#"
+            "label": "Süpürgə"
           },
           {
-            "label": "Ütü Masası",
-            "href": "#"
+            "label": "Ütü Masası"
           },
           {
-            "label": "Ütü Masası Örtüyü",
-            "href": "#"
+            "label": "Ütü Masası Örtüyü"
           }
         ]
       },
@@ -1213,24 +950,19 @@
         "title": "Yedək parça",
         "links": [
           {
-            "label": "Yedək parça",
-            "href": "#"
+            "label": "Yedək parça"
           },
           {
-            "label": "Süfrə",
-            "href": "#"
+            "label": "Süfrə"
           },
           {
-            "label": "Mətbəx",
-            "href": "#"
+            "label": "Mətbəx"
           },
           {
-            "label": "Ev Tekstili",
-            "href": "#"
+            "label": "Ev Tekstili"
           },
           {
-            "label": "Elektronika",
-            "href": "#"
+            "label": "Elektronika"
           }
         ]
       },
@@ -1238,28 +970,22 @@
         "title": "Hamam Ləvazimatı",
         "links": [
           {
-            "label": "Hamam Ləvazimatı",
-            "href": "#"
+            "label": "Hamam Ləvazimatı"
           },
           {
-            "label": "Hamam Səbəti",
-            "href": "#"
+            "label": "Hamam Səbəti"
           },
           {
-            "label": "Hamam Aksesuarı",
-            "href": "#"
+            "label": "Hamam Aksesuarı"
           },
           {
-            "label": "Diş Fırçası Qabı",
-            "href": "#"
+            "label": "Diş Fırçası Qabı"
           },
           {
-            "label": "Sabun Qabı",
-            "href": "#"
+            "label": "Sabun Qabı"
           },
           {
-            "label": "İpəzor",
-            "href": "#"
+            "label": "İpəzor"
           }
         ]
       }
@@ -1267,31 +993,26 @@
   },
   {
     "label": "Cehiz Dəsti",
-    "href": "#",
     "highlight": true,
     "columns": []
   },
   {
     "label": "Endirim",
-    "href": "#",
     "highlight": true,
     "columns": []
   },
   {
     "label": "Kampaniyalar",
-    "href": "#",
     "highlight": true,
     "columns": []
   },
   {
     "label": "Yenilər",
-    "href": "#",
     "highlight": true,
     "columns": []
   },
   {
     "label": "Hədiyyə",
-    "href": "#",
     "highlight": true,
     "columns": []
   }

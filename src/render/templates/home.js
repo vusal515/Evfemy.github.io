@@ -1,5 +1,6 @@
 import { html } from '../html.js';
 import { imageUrl } from '../assets.js';
+import { productCard } from './product.js';
 
 /**
  * Each content variant maps to the carousel class used by the stylesheet and by
@@ -39,9 +40,9 @@ const renderers = {
 
   'promo-pair': (item) => html`<a class="card" href="${item.href}">${image(item)}</a>`,
 
-  products: (item) => html`<a class="card" href="${item.href}">${image(item)}</a>`,
+  products: (item, _i, ctx) => html`<div class="card">${productCard(ctx.getProduct(item.product))}</div>`,
 
-  'products-compact': (item) => html`<a class="card" href="${item.href}">${image(item)}</a>`,
+  'products-compact': (item, _i, ctx) => html`<div class="card">${productCard(ctx.getProduct(item.product))}</div>`,
 
   gifts: (item) =>
     html`<a class="card card--captioned" href="${item.href}">
@@ -50,7 +51,8 @@ const renderers = {
     </a>`,
 };
 
-export function renderSection(section) {
+/** `ctx.getProduct` resolves product references in product sections. */
+export function renderSection(section, ctx = {}) {
   const render = renderers[section.variant];
   if (!render) throw new Error(`Unknown section variant "${section.variant}" in section "${section.id}"`);
 
@@ -67,11 +69,11 @@ export function renderSection(section) {
       ${section.heading}
     </h2>
     <div class="${VARIANT_CLASS[section.variant]}" data-carousel="${section.variant}">
-      ${section.items.map((item, i) => render(item, i))}
+      ${section.items.map((item, i) => render(item, i, ctx))}
     </div>
   </section>`;
 }
 
-export function renderHome(content) {
-  return html`${content.sections.map(renderSection)}`;
+export function renderHome(content, ctx = {}) {
+  return html`${content.sections.map((section) => renderSection(section, ctx))}`;
 }
