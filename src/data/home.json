@@ -1,0 +1,456 @@
+{
+  "sections": [
+    {
+      "id": "category-strip",
+      "variant": "category-strip",
+      "heading": "Kateqoriyalar",
+      "headingHidden": true,
+      "layout": {
+        "height": 80,
+        "fit": "cover"
+      },
+      "items": [
+        {
+          "label": "Servis Ləvazimatları",
+          "image": "categories/dnqfme0.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Hazırlıq Ləvazimatı",
+          "image": "categories/4irqcdk.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Hədiyyə Kartı",
+          "image": "categories/4nixgg4.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Evlilik Paketi",
+          "image": "categories/a8unlbp.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Mətbəx",
+          "image": "categories/v9im28y.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Jumbo",
+          "image": "categories/pgjk14t.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Karaca Home",
+          "image": "categories/axhacxh.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Karaca",
+          "image": "categories/wxtsicr.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Kiçik Mətbəx Texnikası",
+          "image": "categories/fcsibyd.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Xalça",
+          "image": "categories/7njhex0.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Berghoff",
+          "image": "categories/0hz5hl8.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Elektronika",
+          "image": "categories/w4yfv8a.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Hamam Tekstili",
+          "image": "categories/t4vwwwd.webp",
+          "alt": "",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "variant": "hero",
+      "heading": "Kampaniyalar",
+      "headingHidden": true,
+      "layout": {
+        "height": 500,
+        "fit": "contain"
+      },
+      "items": [
+        {
+          "image": "banners/271oeb3.webp",
+          "alt": "Cehizlik kampaniyası: yemək və çay dəstləri 24 aylıq hissəli ödənişlə",
+          "href": "#"
+        },
+        {
+          "image": "banners/2p0qhqn.webp",
+          "alt": "Crystal Bohemia kolleksiyasında 50% endirim",
+          "href": "#"
+        },
+        {
+          "image": "banners/v3f8ax5.webp",
+          "alt": "Hər zövqə və hər büdcəyə uyğun çini yemək dəstləri",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "subcategories",
+      "variant": "tiles",
+      "heading": "Populyar alt kateqoriyalar",
+      "headingHidden": true,
+      "items": [
+        {
+          "label": "Duz/İstiot Qabı",
+          "href": "#"
+        },
+        {
+          "label": "Yastıq",
+          "href": "#"
+        },
+        {
+          "label": "6 Nəfərlik Səhər Yeməyi Dəsti",
+          "href": "#"
+        },
+        {
+          "label": "Peçenye Kəsici Dəsti",
+          "href": "#"
+        },
+        {
+          "label": "Şəkər Pudrası Ələyi",
+          "href": "#"
+        },
+        {
+          "label": "Rəndə",
+          "href": "#"
+        },
+        {
+          "label": "Çərəz Qıran",
+          "href": "#"
+        },
+        {
+          "label": "Düdüklü Qazan",
+          "href": "#"
+        },
+        {
+          "label": "Şokolad Fəvvarəsi",
+          "href": "#"
+        },
+        {
+          "label": "Yataq Dəsti Tək Nəfərlik",
+          "href": "#"
+        },
+        {
+          "label": "Mürəbbə Qabı",
+          "href": "#"
+        },
+        {
+          "label": "Servis Aksesuarları",
+          "href": "#"
+        },
+        {
+          "label": "Servis Taxtası",
+          "href": "#"
+        },
+        {
+          "label": "Pizza Taxtası",
+          "href": "#"
+        },
+        {
+          "label": "Blender Dəsti",
+          "href": "#"
+        },
+        {
+          "label": "Önlük",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "promo-1",
+      "variant": "promo-pair",
+      "heading": "Xüsusi təkliflər",
+      "headingHidden": true,
+      "layout": {
+        "height": 630,
+        "fit": "cover"
+      },
+      "items": [
+        {
+          "image": "banners/xxuoi95.webp",
+          "alt": "Yalnız onlayn satışda seçilmiş məhsullara 70%-dək endirim",
+          "href": "#"
+        },
+        {
+          "image": "banners/xulmwar.webp",
+          "alt": "Bizimlə işləriniz daha asan: kiçik məişət texnikası",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "best-sellers",
+      "variant": "products",
+      "heading": "Ən Çox Satılan Məhsullar",
+      "headingHidden": false,
+      "layout": {
+        "height": 250,
+        "fit": "cover"
+      },
+      "items": [
+        {
+          "image": "products/7or4i1t.webp",
+          "alt": "Əl blenderi dəsti",
+          "href": "#"
+        },
+        {
+          "image": "products/wd5aky8.webp",
+          "alt": "Qazan və tava dəsti",
+          "href": "#"
+        },
+        {
+          "image": "products/usj7ohk.webp",
+          "alt": "Stendli mətbəx alətləri dəsti",
+          "href": "#"
+        },
+        {
+          "image": "products/yxuzle9.webp",
+          "alt": "Naxışlı servis sinisi",
+          "href": "#"
+        },
+        {
+          "image": "products/b77wcfs.webp",
+          "alt": "Yorğan",
+          "href": "#"
+        },
+        {
+          "image": "products/3pcp5kw.webp",
+          "alt": "Qızılı şüşə nəlbəki dəsti",
+          "href": "#"
+        },
+        {
+          "image": "products/7e90evx.webp",
+          "alt": "Dekorativ zürafə fiquru",
+          "href": "#"
+        },
+        {
+          "image": "products/zjsdq3g.webp",
+          "alt": "Keks və tort qəlibləri",
+          "href": "#"
+        },
+        {
+          "image": "products/25d5ehk.webp",
+          "alt": "Toster və qril",
+          "href": "#"
+        },
+        {
+          "image": "products/9xts4ie.webp",
+          "alt": "Ağ çini yemək dəsti",
+          "href": "#"
+        },
+        {
+          "image": "products/evpaekc.webp",
+          "alt": "Bambuk kəsmə taxtası dəsti",
+          "href": "#"
+        },
+        {
+          "image": "products/dbf1sbq.webp",
+          "alt": "Şüşə elektrik çaydanı",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "discounted",
+      "variant": "products-compact",
+      "heading": "Endirimli Məhsullar",
+      "headingHidden": false,
+      "layout": {
+        "height": 250,
+        "fit": "cover"
+      },
+      "items": [
+        {
+          "image": "products/rq4syfm.webp",
+          "alt": "Paslanmayan polad çaydan",
+          "href": "#"
+        },
+        {
+          "image": "products/qle9dhn.webp",
+          "alt": "Kristal çərəz qabı",
+          "href": "#"
+        },
+        {
+          "image": "products/pgo01h8.webp",
+          "alt": "Kristal stolüstü saat",
+          "href": "#"
+        },
+        {
+          "image": "products/cl77280.webp",
+          "alt": "Ayaqlı kristal tort qabı",
+          "href": "#"
+        },
+        {
+          "image": "products/qadl043.webp",
+          "alt": "Səhər yeməyi servis dəsti",
+          "href": "#"
+        },
+        {
+          "image": "products/aqiic4p.webp",
+          "alt": "Qızılı şüşə qəlyanaltı qabları",
+          "href": "#"
+        },
+        {
+          "image": "products/3mg897q.webp",
+          "alt": "Daş görünüşlü servis boşqabı",
+          "href": "#"
+        },
+        {
+          "image": "products/rbeztkb.webp",
+          "alt": "Ədviyyat və sous dəsti",
+          "href": "#"
+        },
+        {
+          "image": "products/f25qneg.webp",
+          "alt": "Kristal su stəkanları",
+          "href": "#"
+        },
+        {
+          "image": "products/fvdav7l.webp",
+          "alt": "Çörək qabı",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "promo-2",
+      "variant": "promo-pair",
+      "heading": "Ev tekstili və dekorasiya",
+      "headingHidden": true,
+      "layout": {
+        "height": 240,
+        "fit": "contain"
+      },
+      "items": [
+        {
+          "image": "banners/rff3s3a.webp",
+          "alt": "Rahatlığınız xoşbəxtliyinizdir: sərfəli cehiz dəstləri",
+          "href": "#"
+        },
+        {
+          "image": "banners/r87biz1.webp",
+          "alt": "Dekorasiya məhsulları ilə evinizi fərqləndirin",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "collections",
+      "variant": "promo-pair",
+      "heading": "Möhtəşəm Kolleksiyalar",
+      "headingHidden": false,
+      "layout": {
+        "height": 630,
+        "fit": "cover"
+      },
+      "items": [
+        {
+          "image": "banners/z053cgp.webp",
+          "alt": "Parlayan kolleksiyası: kristal qrafin və stəkanlar",
+          "href": "#"
+        },
+        {
+          "image": "banners/3uaovjz.webp",
+          "alt": "Cerve kolleksiyası",
+          "href": "#"
+        },
+        {
+          "image": "banners/35vrrxj.webp",
+          "alt": "Jumbo qab-qacaq kolleksiyası",
+          "href": "#"
+        },
+        {
+          "image": "banners/nuqf4iv.webp",
+          "alt": "Evfemiya qış fürsətləri: paslanmayan polad qazan dəstləri",
+          "href": "#"
+        },
+        {
+          "image": "banners/nbek9d7.webp",
+          "alt": "BergHOFF qazan və tava dəstləri",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "gifts",
+      "variant": "gifts",
+      "heading": "Sevdikləriniz Üçün Özəl Hədiyyələr",
+      "headingHidden": false,
+      "layout": {
+        "height": 400,
+        "fit": "cover"
+      },
+      "items": [
+        {
+          "label": "Anama Hədiyyə",
+          "image": "gifts/srfivzr.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Atama Hədiyyə",
+          "image": "gifts/a7v38mr.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Sevgilimə Hədiyyə",
+          "image": "gifts/ibxkbtn.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Dostuma Hədiyyə",
+          "image": "gifts/xy5n5bi.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Qəhvə Həvəskarlarına Hədiyyə",
+          "image": "gifts/5sar4pv.webp",
+          "alt": "",
+          "href": "#"
+        },
+        {
+          "label": "Uşaqlara Hədiyyə",
+          "image": "gifts/13nhykm.webp",
+          "alt": "",
+          "href": "#"
+        }
+      ]
+    }
+  ]
+}

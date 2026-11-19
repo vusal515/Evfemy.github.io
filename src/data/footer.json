@@ -1,0 +1,85 @@
+[
+  {
+    "title": "Evfemiya",
+    "links": [
+      {
+        "label": "Haqqımızda",
+        "href": "#"
+      },
+      {
+        "label": "Filiallarımız",
+        "href": "#"
+      },
+      {
+        "label": "Kariyera",
+        "href": "#"
+      },
+      {
+        "label": "Əlaqə",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "Texniki Dəstək",
+    "links": [
+      {
+        "label": "Geri Qaytarma Şərtləri",
+        "href": "#"
+      },
+      {
+        "label": "Şəxsi Məlumatların Qorunması",
+        "href": "#"
+      },
+      {
+        "label": "Şirkətin Rəsmi Məlumatları",
+        "href": "#"
+      },
+      {
+        "label": "İstifadəçi Təlimatları",
+        "href": "#"
+      },
+      {
+        "label": "Sifariş İzləmə",
+        "href": "#"
+      },
+      {
+        "label": "Yardım",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "Alış-Veriş",
+    "links": [
+      {
+        "label": "Hədiyyə kartı",
+        "href": "#"
+      },
+      {
+        "label": "Tamamlayıcı Hissələr",
+        "href": "#"
+      },
+      {
+        "label": "Endirimli Məhsullar",
+        "href": "#"
+      },
+      {
+        "label": "Kampaniyalar",
+        "href": "#"
+      },
+      {
+        "label": "Markalar",
+        "href": "#"
+      },
+      {
+        "label": "Çatdırılma",
+        "href": "#"
+      },
+      {
+        "label": "Hissəli Ödəniş Qaydaları",
+        "href": "#"
+      }
+    ]
+  }
+]

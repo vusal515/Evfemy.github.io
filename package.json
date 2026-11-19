@@ -1,0 +1,36 @@
+{
+  "name": "evfemiya-storefront",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Evfemiya home & kitchenware storefront - static, data-driven front end",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run lint && npm run format:check && npm test && npm run build",
+    "images:optimize": "node tools/optimize-images.mjs"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "globals": "^15.15.0",
+    "jsdom": "^31.0.1",
+    "prettier": "^3.10.1",
+    "sharp": "^0.35.5",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  }
+}

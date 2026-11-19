@@ -1,0 +1,6 @@
+/* Order matters: base -> original page styles -> refactor components. */
+@import './base.css';
+@import './header.css';
+@import './footer.css';
+@import './home.css';
+@import './components.css';
